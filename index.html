@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House_Rental</title>
+    <!-- Bootstrap cdn -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles/style.css">
+    
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top"> 
+        <a class="navbar-brand" href="/">
+           <span>QUI</span>CH <i>service</i>
+        </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#section_one">Accueil</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/proprietes">Maison</a></li> 
+                    <li><a class="dropdown-item" href="#">Appareil</a></li>
+                    <li><a class="dropdown-item" href="#">Vehicule</a></li>
+                  </ul>
+                </li>
+                
+                <li class="nav-item"><a class="nav-link" href="#Contact_Us">Contact</a></li>
+                 
+            </ul>
+        </div>
+
+    </nav>
+   
+   <section id="section_one">
+    <!-- Carousel Options -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/resize1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+              
+              <h5>Qui cherche, Trouve!</h5>
+              <p> Nous sommes la pour vous aider a satisfaire vos besoins selon vos moyen et ressources.</p>
+              <button class="learn_more btn btn-outline-warning mt-3">Learn more</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/mbrecha.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h5>Decouvre Votre Nouvelle Maison.</h5>
+                <p>Nous sommes la pour vous aider a trouver une maison parfaite, selon vos moyens et ressources.</p>
+                <button class="learn_more btn btn-outline-warning mt-3">Learn more</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/saloon.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+                <h5>Decouvrez Votre Nouvelle Maison.</h5>
+                <p>Nous sommes la pour vous aider a trouver une maison parfaite, selon vos moyens et ressources.</p>
+                <button class="learn_more btn btn-outline-warning mt-3">Learn more</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Nos services -->
+    <section id="section_two">
+            <h2><span>Nos</span> Services</h2>
+            <div class="row">
+                <div class="service col-lg-4 col-md-6 card text-center mb-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <img class="myGiff" src="images/key.gif" alt="">
+                      <h5 class="card-title">Achat</h5>
+                      <p class="card-text">Avec nous acheter une Maison en toute confiance.</p>
+          
+                    </div>
+                </div>
+                <div class="service col-lg-4 col-md-6 card text-center mb-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <img class="myGiff" src="images/renting.gif" alt="">
+                      <h5 class="card-title">Location</h5>
+                      <p class="card-text">Loger dans une belle maison, selon vos moyen</p>
+                      
+                    </div>
+                </div>
+                <div class="service col-lg-4 col-md-6 card text-center mb-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <img class="myGiff" src="images/buy.gif" alt="">
+                      <h5 class="card-title">Vente</h5>
+                      <p class="card-text">Contacter nous pour savoir plus sur ce service.</p>
+                      
+                    </div>
+                </div>
+            </div>
+              <hr>
+            <div class="house_details">
+              <!-- Liste de proprietes -->
+              <h2><span>Nos</span> Propriétés</h2>
+               <div class="row prop">
+                <div class="card properties col-lg-4" style="width: 18rem;">
+                  <img src="images/xx.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <p class="dollar">700 $ / mois</p>
+                      <h5 class="card-title">Faradja Apartment</h5>
+                      <p class="address"><img class="icon_location" src="images/placeholder.png" alt=""> № 223, Q. Labotte, Av.Sikumbuke </p>
+                    <div class="card-footer">
+                        <div class="row houses">
+                          <div class="col-lg-6"><img class="icon_location" src="images/bed.png" alt=""><span class="detail">  4 chambres</span></div>
+                          <div class="col-lg-6"><img class="icon_location"  src="images/bathroom.png" alt=""><span class="detail">  2 salle de bain</span> </div>
+                          
+                        </div>
+                    </div>
+                         
+                  </div>
+                </div>   
+                <!-- ----------------- -->
+                <div class="card properties col-lg-4" style="width: 18rem;">
+                  <img src="images/h1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <p class="dollar">400 $ / mois</p>
+                      <h5 class="card-title">Maison a Louer</h5>
+                      <p class="address"><img class="icon_location" src="images/placeholder.png" alt=""> № 20, Q. Muhumba, Av.Sikumbuke </p>
+                    <div class="card-footer">
+                        <div class="row houses">
+                          <div class="col-lg-6"><img class="icon_location" src="images/bed.png" alt=""><span class="detail">  3 chambres</span></div>
+                          <div class="col-lg-6"><img class="icon_location"  src="images/bathroom.png" alt=""><span class="detail">  3 salle de bain</span> </div>
+                          
+                        </div>
+                    </div>
+                         
+                  </div>
+                </div>  
+                <!-- ----------------------------------  -->
+                <div class="card properties col-lg-4" style="width: 18rem;">
+                  <img src="images/bg2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <p class="dollar">300 $ / mois</p>
+                      <h5 class="card-title"> Maison a Louer</h5>
+                      <p class="address"><img class="icon_location" src="images/placeholder.png" alt=""> № 13, Q. Nyawera, Av.Sikumbuke </p>
+                    <div class="card-footer">
+                        <div class="row houses">
+                          <div class="col-lg-6"><img class="icon_location" src="images/bed.png" alt=""><span class="detail">  4 chambres</span></div>
+                          <div class="col-lg-6"><img class="icon_location"  src="images/bathroom.png" alt=""><span class="detail">  2 salle de bain</span> </div>
+                          
+                        </div>
+                    </div>
+                         
+                  </div>
+                </div>   
+                <!---------------------------------------------------------->
+                  
+
+                            
+              </div>
+
+              <button  class="voir_plus btn btn-md btn-dark" style="color: white;">Voir plus...</button>   
+              <hr>
+               <!-- Nos agents details -->
+               <h2 class="identification"><span>Nos</span> Agents</h2>
+               <div  class="nosAgents">
+                
+                <div class="fofo">
+                  <img class="agent" src="images/croping.jpg" alt="">
+                  <h5>Fortunat Basedeke</h5>
+                  <p>Responsable du Project a Bukavu</p>
+                  <i class="myNetwork fa-brands fa-facebook-f"></i><i class="myNetwork fa-brands fa-instagram"></i>
+                  <i class="myNetwork fa-brands fa-twitter"></i></i><i class="myNetwork fa-solid fa-phone"></i>
+                  
+                </div>
+                <div class="fofo">
+                  <img class="agent" src="images/engineer.png" alt="">
+                  <h5>Alingi Pepe</h5>
+                  <p>Developpeur du Site Internet.</p>
+                  <i class="myNetwork fa-brands fa-facebook-f"></i><i class="myNetwork fa-brands fa-instagram"></i>
+                  <i class="myNetwork fa-brands fa-twitter"></i></i><i class="myNetwork fa-solid fa-phone"></i>
+                  </div>       
+               </div>
+                   
+    </section>
+          
+    <section id="Contact_Us" >
+      <h2>Contactez-Nous</h2>
+      <div class="row">
+        <div class=" col-lg-6  first_detail"><p><i class="fa-solid fa-location-dot"></i> № 240 Nyawera </p>
+          <p class="town">Bukavu, RDC</p>
+          <p><i class="fa-solid fa-phone"></i> +243-995538912</p>
+          <p><i class="email_address fa-regular fa-envelope"></i> <a href="" style="color: ghostwhite;">customExample@gmail.com</a> </p>
+        </div>
+        <div class="col-lg-6 col-md-12 second_detail" style="color: white;">
+          <div class="quich">
+            <h4> Qui Somme-nous?</h4>
+            <p>QUICH.COM est un Site Web ayant pour vocation de faciliter le monde des affaires dans la Ville de Bukavu;
+              Nous intervenons dans la Location et la vente d'Immobilier et autres Services qui vous serons communiqué d'ici la.
+              <p><i class="about fa-brands fa-facebook"></i> 
+                <a href="https://wa.me/0995538912"><i class="about fa-brands fa-whatsapp"></i></p></a>
+                
+          </div>
+          
+           
+        </div>  
+      </div>
+      
+      
+         
+        
+    </section> 
+    <script>
+      var voir_plus=document.querySelector(".voir_plus");
+      voir_plus.addEventListener("click",()=>{
+        window.open('/proprietes');
+      })
+    </script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
