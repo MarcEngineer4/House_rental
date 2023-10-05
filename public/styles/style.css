@@ -67,26 +67,49 @@ i{
         text-align: center;
     }
     .carousel-caption{
-        bottom: 155px;
+        bottom: 80px;
+        
+        
     }
     .carousel-caption h5{
         font-size: 17px;
     }
+   
     .carousel-caption a{
         padding: 10px 15px;
     }
     .carousel-caption p{
         width: 100%;
         line-height: 1.6;
-        font-size:12px;
+        font-size:13px;
 
+    }
+    .carousel-item{
+        height: 70vh;
+        min-height: 200px;
     }
     .second_detail{
         text-align: center;
     }
     #Contact_Us{    
-        font-size: 13px;
+        font-size: 12px;
         
+    }
+    .learn_more{
+        padding: 3px;
+        font-size: 12px;
+        height: 30px;
+    }
+    .service{
+        margin: 10px auto;
+        
+    }
+    .myGiff{
+        height: 70px;
+    }
+    .card-text{
+        font-size: 12px;
+         
     }
 }
 /* Nos services */
@@ -106,8 +129,7 @@ i{
 }
 .card-text{
     font-size: 14px;
-   
-   
+     
 }
 .properties{
     text-align: left;
@@ -165,11 +187,11 @@ hr{
 
 .agent{
 
-    height: 150px;
+    height: 100px;
     border-radius: 100%;
 }
 .fofo{
-    width: 30%;
+    width: 100%;
     
 
     
@@ -207,21 +229,30 @@ hr{
         flex-direction: column;
         justify-content: space-evenly;
     }
+    #Contact_Us h2{
+        color: white;
+        text-align: center;
+        font-size: 18px;  
+        
+    }
+    #Contact_Us p{
+        font-size: 12px;  
+        
+    }
     .fofo{
-        width: 50%;
-        margin: 15px auto;
+        width: 100%;
+        margin: 10px auto;
     
         
     }
 }
 #Contact_Us{
     background-color: rgb(9, 9, 68);
-    padding: 25px;
+    padding: 20px;
 }
 #Contact_Us h2{
     color: white;
     text-align: center;
-    
     
 }
 
@@ -380,7 +411,14 @@ i{
 }
 @media(max-width:650px){
    
+    .section_one{
+        padding: 10px ;
 
+    }
+    .punguza{
+        margin-top: 20px;
+        
+    }
     .slider-wrapper{
         position: relative;
         width: 110%;
